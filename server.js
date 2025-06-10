@@ -5,8 +5,8 @@ var port = process.env.PORT || 8080;
 
 
 const corsAnywhere = require('cors-anywhere');
-const host = '0.0.0.0';
-const port = process.env.PORT || 8080;
+//const host = '0.0.0.0';
+//const port = process.env.PORT || 8080;
 
 corsAnywhere.createServer({
   // 👇 Disable header requirement
